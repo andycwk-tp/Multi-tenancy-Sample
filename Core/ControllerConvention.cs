@@ -103,13 +103,4 @@
             }
         }
     }
-
-    public class typ : ITypeScanner
-    {
-        public void Process(Type type, PluginGraph graph)
-        {
-            graph.InterceptorLibrary.AddInterceptor(
-        }
-    }
-
 }
